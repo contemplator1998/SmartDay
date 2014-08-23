@@ -170,12 +170,14 @@ containing a value of this type.
         public static final int widget_frame=0x7f020006;
     }
     public static final class id {
+        public static final int Button01=0x7f050028;
         public static final int am_pm=0x7f050021;
         public static final int bottom=0x7f050001;
         public static final int btn_show_bitmap=0x7f050026;
         public static final int btn_show_layout=0x7f050024;
         public static final int btn_update_layout=0x7f050027;
         public static final int btn_update_this=0x7f050025;
+        public static final int button1=0x7f050029;
         public static final int center=0x7f050006;
         public static final int center_horizontal=0x7f050005;
         public static final int center_vertical=0x7f050004;
@@ -205,16 +207,16 @@ containing a value of this type.
         public static final int seconds=0x7f050009;
         public static final int seconds_digit1=0x7f05000b;
         public static final int seconds_digit2=0x7f05000a;
-        public static final int smart_watch_notification_widget_background=0x7f050028;
-        public static final int smart_watch_notification_widget_text_background=0x7f050029;
-        public static final int smart_watch_notification_widget_text_name=0x7f05002c;
-        public static final int smart_watch_notification_widget_text_time=0x7f05002a;
-        public static final int smart_watch_notification_widget_text_title=0x7f05002b;
-        public static final int smart_watch_widget_custom_image=0x7f05002d;
-        public static final int smart_watch_widget_custom_text_view=0x7f05002e;
-        public static final int smart_watch_widget_event_counter_badge=0x7f050030;
-        public static final int smart_watch_widget_event_counter_text=0x7f050031;
-        public static final int smart_watch_widget_icon=0x7f05002f;
+        public static final int smart_watch_notification_widget_background=0x7f05002a;
+        public static final int smart_watch_notification_widget_text_background=0x7f05002b;
+        public static final int smart_watch_notification_widget_text_name=0x7f05002e;
+        public static final int smart_watch_notification_widget_text_time=0x7f05002c;
+        public static final int smart_watch_notification_widget_text_title=0x7f05002d;
+        public static final int smart_watch_widget_custom_image=0x7f05002f;
+        public static final int smart_watch_widget_custom_text_view=0x7f050030;
+        public static final int smart_watch_widget_event_counter_badge=0x7f050032;
+        public static final int smart_watch_widget_event_counter_text=0x7f050033;
+        public static final int smart_watch_widget_icon=0x7f050031;
         public static final int top=0x7f050000;
         public static final int years_digit1=0x7f050020;
         public static final int years_digit2=0x7f05001f;
@@ -224,8 +226,9 @@ containing a value of this type.
     public static final class layout {
         public static final int bitmap=0x7f030000;
         public static final int layout=0x7f030001;
-        public static final int smart_watch_notification_widget=0x7f030002;
-        public static final int smart_watch_widget=0x7f030003;
+        public static final int main=0x7f030002;
+        public static final int smart_watch_notification_widget=0x7f030003;
+        public static final int smart_watch_widget=0x7f030004;
     }
     public static final class string {
         /**  At least one dummy resource is needed to satisfy aapt.
@@ -233,33 +236,26 @@ containing a value of this type.
  Name of app, shown when installing/uninstalling extension 
          */
         public static final int app_name=0x7f040000;
-        /**  Configuration title shown in preferences 
-         */
-        public static final int configuration_text=0x7f040003;
+        public static final int create_new=0x7f040007;
         /**  Name of extension, shown in preferences 
          */
-        public static final int extension_name=0x7f040002;
-        /**  Title of preference activity 
+        public static final int extension_name=0x7f040001;
+        /**  Configuration title shown in preferences 
          */
-        public static final int preference_activity_title=0x7f040001;
-        /**  Menu option shown in preferences 
-         */
-        public static final int preference_option_read_me=0x7f040004;
-        /**  Read me text shown in dialog 
-         */
-        public static final int preference_option_read_me_txt=0x7f040005;
+        public static final int main_text=0x7f040002;
+        public static final int query_calendar=0x7f040008;
         /**  Text used on control layout 
          */
-        public static final int reset_layout=0x7f040008;
+        public static final int reset_layout=0x7f040005;
         /**  Text used on control layout 
          */
-        public static final int text_show_bitmap=0x7f040006;
+        public static final int text_show_bitmap=0x7f040003;
         /**  Text used on control layout 
          */
-        public static final int text_show_layout=0x7f040009;
+        public static final int text_show_layout=0x7f040006;
         /**  Text used on control layout 
          */
-        public static final int text_tap_to_update=0x7f040007;
+        public static final int text_tap_to_update=0x7f040004;
     }
     public static final class style {
         public static final int ExtensionLightTheme=0x7f080000;
