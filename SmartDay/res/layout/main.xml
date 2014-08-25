@@ -5,17 +5,30 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/Button01"
+        android:id="@+id/btnCreateNewEvent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="createNewEvent"
         android:text="@string/create_new" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnQueryCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="queryCalendar"
         android:text="@string/query_calendar" />
+
+    <Button
+        android:id="@+id/btnQueryEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="queryEvents"
+        android:text="@string/query_events" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
 
 </LinearLayout>

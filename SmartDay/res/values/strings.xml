@@ -18,5 +18,6 @@
     <string name="text_show_layout">Change to layout</string>
     <string name="create_new">Create event</string>
     <string name="query_calendar">Query calendar</string>
+    <string name="query_events">Query events</string>
 
 </resources>

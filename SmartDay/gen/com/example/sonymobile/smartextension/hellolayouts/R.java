@@ -170,14 +170,15 @@ containing a value of this type.
         public static final int widget_frame=0x7f020006;
     }
     public static final class id {
-        public static final int Button01=0x7f050028;
         public static final int am_pm=0x7f050021;
         public static final int bottom=0x7f050001;
+        public static final int btnCreateNewEvent=0x7f050028;
+        public static final int btnQueryCalendar=0x7f050029;
+        public static final int btnQueryEvents=0x7f05002a;
         public static final int btn_show_bitmap=0x7f050026;
         public static final int btn_show_layout=0x7f050024;
         public static final int btn_update_layout=0x7f050027;
         public static final int btn_update_this=0x7f050025;
-        public static final int button1=0x7f050029;
         public static final int center=0x7f050006;
         public static final int center_horizontal=0x7f050005;
         public static final int center_vertical=0x7f050004;
@@ -196,6 +197,7 @@ containing a value of this type.
         public static final int hours_fine=0x7f050022;
         public static final int image=0x7f050023;
         public static final int left=0x7f050002;
+        public static final int listView1=0x7f05002b;
         public static final int match_parent=0x7f050007;
         public static final int minutes=0x7f05000c;
         public static final int minutes_digit1=0x7f05000e;
@@ -207,16 +209,16 @@ containing a value of this type.
         public static final int seconds=0x7f050009;
         public static final int seconds_digit1=0x7f05000b;
         public static final int seconds_digit2=0x7f05000a;
-        public static final int smart_watch_notification_widget_background=0x7f05002a;
-        public static final int smart_watch_notification_widget_text_background=0x7f05002b;
-        public static final int smart_watch_notification_widget_text_name=0x7f05002e;
-        public static final int smart_watch_notification_widget_text_time=0x7f05002c;
-        public static final int smart_watch_notification_widget_text_title=0x7f05002d;
-        public static final int smart_watch_widget_custom_image=0x7f05002f;
-        public static final int smart_watch_widget_custom_text_view=0x7f050030;
-        public static final int smart_watch_widget_event_counter_badge=0x7f050032;
-        public static final int smart_watch_widget_event_counter_text=0x7f050033;
-        public static final int smart_watch_widget_icon=0x7f050031;
+        public static final int smart_watch_notification_widget_background=0x7f05002c;
+        public static final int smart_watch_notification_widget_text_background=0x7f05002d;
+        public static final int smart_watch_notification_widget_text_name=0x7f050030;
+        public static final int smart_watch_notification_widget_text_time=0x7f05002e;
+        public static final int smart_watch_notification_widget_text_title=0x7f05002f;
+        public static final int smart_watch_widget_custom_image=0x7f050031;
+        public static final int smart_watch_widget_custom_text_view=0x7f050032;
+        public static final int smart_watch_widget_event_counter_badge=0x7f050034;
+        public static final int smart_watch_widget_event_counter_text=0x7f050035;
+        public static final int smart_watch_widget_icon=0x7f050033;
         public static final int top=0x7f050000;
         public static final int years_digit1=0x7f050020;
         public static final int years_digit2=0x7f05001f;
@@ -244,6 +246,7 @@ containing a value of this type.
          */
         public static final int main_text=0x7f040002;
         public static final int query_calendar=0x7f040008;
+        public static final int query_events=0x7f040009;
         /**  Text used on control layout 
          */
         public static final int reset_layout=0x7f040005;
